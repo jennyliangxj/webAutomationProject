@@ -54,8 +54,8 @@ tubiPage.open().searchFor("tvName")
 
 # 【📥  Git仓库获取方式=====】
 
-`git clone `
+`git clone  git@github.com:jennyliangxj/webAutomationProject.git `
 
-# 联系人信息
+# 仓库联系人信息
 `jenny.liangxj@gmail.com`
 
