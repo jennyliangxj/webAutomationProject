@@ -51,11 +51,51 @@ tubiPage.open().searchFor("tvName")
 
 # 【🚀🚀==== 升级指南=====🚀🚀】
 1、依赖更新
-<dependency>
-<groupId>org.seleniumhq.selenium</groupId>
-<artifactId>selenium-java</artifactId>
-<version>4.14.1</version>
-</dependency>
+
+`
+ <dependencies>
+        <!--   selenium webdriver 核心库 -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.11.0</version>
+        </dependency>
+
+        <!-- WebDriverManager（自动管理浏览器驱动） -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.9.3</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.9.3</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.3</version>
+        </dependency>
+
+        <!-- 日志框架,log4j框架 -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+
+        `
+
 
 
 # 【📥  Git仓库获取方式=====】
